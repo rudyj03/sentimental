@@ -1,6 +1,20 @@
-<h1>Miami Dolphins Vs. Oakland Raiders</h1>
+<h1><%=@game.team1_name%> Vs. <%=@game.team2_name%></h1>
 
-<h2>Who will win?</h2>
+<fieldset>
+  <legend><%=@game.team1_name%></legend>
+  <span>Number of positive tweets : <%=@game.team1_pos%></span> <br/>
+  <span>Number of negative tweets : <%=@game.team1_neg%></span>
+</fieldset>
 
-<h2>I'm predicting <%= @winner%> will win</h2>
+<fieldset>
+  <legend><%=@game.team2_name%></legend>
+  <span>Number of positive tweets : <%=@game.team2_pos%></span> <br/>
+  <span>Number of negative tweets : <%=@game.team2_neg%></span>
+</fieldset>
+
+
+<h2>I'm predicting the <span id="winner"><%= @winner%></span> will win</h2>
+
+
+<h3>*Note: these tweet counts have been accumulated for <%= distance_of_time_in_words_to_now @game.created_at%></h3>
 

@@ -8,7 +8,7 @@ scheduler.every '20m' do
 end
 
 
-scheduler.every '40m' do
+scheduler.every '30m' do
 
   puts "classifying...."
   game = Game.where(:team1_name => 'Miami Dolphins').first
