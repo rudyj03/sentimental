@@ -3,13 +3,15 @@
 <fieldset>
   <legend><%=@game.team1_name%></legend>
   <span>Number of positive tweets : <%=@game.team1_pos%></span> <br/>
-  <span>Number of negative tweets : <%=@game.team1_neg%></span>
+  <span>Number of negative tweets : <%=@game.team1_neg%></span> <br/>
+  <span>Ratio : <%= @team1_ratio%></span>
 </fieldset>
 
 <fieldset>
   <legend><%=@game.team2_name%></legend>
   <span>Number of positive tweets : <%=@game.team2_pos%></span> <br/>
-  <span>Number of negative tweets : <%=@game.team2_neg%></span>
+  <span>Number of negative tweets : <%=@game.team2_neg%></span> <br/>
+  <span>Ratio : <%= @team2_ratio%></span>
 </fieldset>
 
 

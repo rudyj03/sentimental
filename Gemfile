@@ -1,5 +1,4 @@
 source 'http://rubygems.org'
-source "http://gems.github.com"
 
 gem 'rails', '3.0.10'
 
@@ -10,7 +9,7 @@ gem 'sqlite3'
 
 gem 'ruby-stemmer'
 
-gem 'kitop-classifier'
+gem 'kitop-classifier', :git=>'git://github.com/logankoester/classifier.git'
 
 gem 'twitter'
 
