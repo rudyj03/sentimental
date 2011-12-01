@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  team1_classifier: MyText
+  team2_classifier: MyText
+  game_day: 2011-11-30
+  team1_name: MyString
+  team2_name: MyString
+
+two:
+  team1_classifier: MyText
+  team2_classifier: MyText
+  game_day: 2011-11-30
+  team1_name: MyString
+  team2_name: MyString
